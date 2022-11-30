@@ -1,0 +1,17 @@
+{
+  "name": "rabbitMQDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node index.js",
+    "consume": "node consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["rabbitMQ", "Publish/Subscribe Artchitecture"],
+  "author": "Vishal Panchal",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
